@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>All Products - North Closet</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,700;0,800;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+             <a href="index.html"><img src="images/logo.png" width="125px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mens-products.html">Men</a></li>
+                <li><a href="womens-products.html">Women</a></li>
+                
+            </ul>
+        </nav>
+    <a href="cart.html" class="cartbutton"><img src="images/cart.png" width="30px" height="30px"> </a>
+      <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+
+<!--single product details-->
+  <div class="small-container single-product">
+    <div class="row">
+    <div class="col-2">
+      <img src="images/womens side sinched top.png" width="100%">
+    </div>
+    <div class="col-2">
+      <p>Home/ Womens Tops</p>
+      <h1>Womens Side Sinched Top</h1>
+      <h4>$40.00</h4>
+      <select>
+        <option>Select Size</option>
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+      </select>
+      <input type="number" value="1">
+      <a href="" class="btn">Add To Cart</a>
+
+    </div>
+    </div>
+  </div>
+
+      
+  <div class="small-container">
+  <div class="row">
+    <div class="col-4">
+      <a href="womens side sinched top.html"><img src="images/womens side sinched top.png"></a>
+        <h4>Womens Side Sinched Top</h4>
+        <p>$40.00</p>
+    </div>
+    
+    <div class="col-4">
+      <img src="images/mens graphic tee.png">
+        <h4>Mens Khaki Jacket</h4>
+        <p>$80.00</p>
+    </div>
+    
+    <div class="col-4">
+      <img src="images/women_blue_jeans.png">
+        <h4>Womens Blue Jeans</h4>
+        <p>$50.00</p>
+    </div>
+    
+    <div class="col-4">
+      <img src="images/womens lilac blouse.png">
+        <h4>Womens Lilac Blouse</h4>
+        <p>$20.00</p>
+    </div>
+    
+    <div class="col-4">
+      <img src="images/mens pink shirt.png">
+        <h4>Mens Pink Shirt</h4>
+        <p>$40.00</p>
+    </div>
+    
+    <div class="col-4">
+      <img src="images/womens beige light sweater.png">
+        <h4>Womens Beige Light Sweater</h4>
+        <p>$20.00</p>
+    </div>
+  </div> <!--end row-->
+    
+ 
+</div><!--end small container-->
+
+<!-----footer-->
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-2">
+          <img src="images/logo.png">
+          <p>Our company believes in selling great products for great memories.</p>
+        </div>
+
+        <div class="footer-col-3">
+          <h3>Useful links</h3>
+          <ul>
+            <li>Return policy</li>
+            <li>Contact us</li>
+            <li>Offers</li>          
+          </ul>
+        </div>
+        
+        <div class="footer-col-4">
+          <h3>Socials</h3>
+          <ul>
+            <li>Instagram</li>
+            <li>Youtube</li>
+            <li>Twitter</li>          
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script>
+        var MenuItems = document.getElementById("MenuItems")
+        MenuItems.style.maxHeight = "0px"
+        function menutoggle() {
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                   MenuItems.style.maxHeight = "200px"
+            }
+            else
+            {
+                   MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+</html>

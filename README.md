@@ -1,8 +1,8 @@
-# Applet-Frontend
+# Responsive E-commerce Applet/Website
 
-This is a frontend (with little backend) ecommerce website that I created along with two peers as a final project. 
+This is a responsive E-commerce website that I created along with two peers as a final project. 
 The applet can be displayed as a website on a desktop and as an app on a cellular device. 
-The ecommerce websit allows users to scroll through numerous items of clothings, divided into two categories (men & women).
+The ecommerce website allows users to scroll through numerous items of clothings, divided into two categories (men & women).
 Some items can be selected to gain a personal view and select sizes for purchase. 
 The cart is also viewable (currently only frontend with a preview purchase in cart).
 
